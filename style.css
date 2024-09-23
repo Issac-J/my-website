@@ -19,3 +19,54 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* navigation menu styles */
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 0.5em;
+}
+
+nav ul li a {
+  padding: 0.25em 1em;
+  /* no underline */
+  text-decoration: none;
+  background-color: #394c4a;
+  color: whitesmoke;
+  border: 1px solid #394c4a;
+  /* rounded corner */
+  border-radius: 0.25em 0.25em;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  font-weight: bold;
+}
+
+/* About Main */
+main section ul {
+  list-style-type: none;
+  margin: 0 0.5em;
+  padding: 0 0.5em;
+}
+
+main section ul li {
+  /* background-color: #808080; */
+  display: flex;
+  flex-direction: column;
+}
+
+main section ul li a {
+  padding: 0.5em;
+  text-decoration: none;
+  color: #394c4a;
+}
